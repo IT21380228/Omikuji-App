@@ -78,6 +78,34 @@ input[type=number] {
   vertical-align: middle;
   border: solid 0.01em grey;
 }
+#btn1{
+    position:relative;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius:100px;
+    background: rgb(107, 98, 107);
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.65);
+    background:linear-gradient(rgba(2, 113, 241, 0.5) 0%, #afeeee 100%);
+    box-shadow: 0 10px 0 grey;
+    justify-content: center;
+    transition: 1s;
+    cursor:pointer;
+}
+#btn1:hover{
+    background: linear-gradient(rgba(255, 0, 0, 0.7) 0%, rgba(0, 0, 255, 0.7) 100%);
+    color: white;
+}
+#btn1:active{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: 0 5px 0 green;
+}
 
 /*#btnEqual {
   margin: 0.05em;
@@ -144,4 +172,5 @@ footer> p {
 	.f-item {
 	font-size:70%;
 	}
+
 }
